@@ -4,9 +4,9 @@
 
     <card>
         <title>Minimal configuration</title>
-        <input-field type="text">
-            <name>ConvertCurrToUsd</name>
-            <label>Test field</label>
+        <input-field type="float">
+            <name>customCurrencyFactorUsd</name>
+            <label>Custom Currency Factor</label>
         </input-field>
     </card>
 </config>
