@@ -1,0 +1,27 @@
+{
+  "name": "my/convert-to-usd",
+  "description": "Convert currency to usd",
+  "version": "1.0.0",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Author"
+      }
+  ],
+  "autoload": {
+    "psr-4": {
+      "My\\ConvertCurrToUsd\\": "src/"
+    }
+  },
+    "require": {
+        "shopware/platform": "6.4.x@dev || dev-trunk"
+    },
+    "extra": {
+    "shopware-plugin-class": "My\\ConvertCurrToUsd\\MyConvertCurrToUsd",
+    "label": {
+      "de-DE": "Connvert Currency",
+      "en-GB": "Connvert Currency"
+    }
+  }
+}

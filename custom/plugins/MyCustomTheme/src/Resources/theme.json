@@ -1,0 +1,22 @@
+{
+  "name": "MyCustomTheme",
+  "author": "Author",
+  "views": [
+     "@Storefront",
+     "@Plugins",
+     "@MyCustomTheme"
+  ],
+  "style": [
+    "app/storefront/src/scss/overrides.scss",
+    "@Storefront",
+    "app/storefront/src/scss/base.scss"
+  ],
+  "script": [
+    "@Storefront",
+    "app/storefront/dist/storefront/js/my-custom-theme.js"
+  ],
+  "asset": [
+    "@Storefront",
+    "app/storefront/src/assets"
+  ]
+}
